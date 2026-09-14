@@ -100,6 +100,18 @@ public class AllBooksServlet extends HttpServlet {
                 
                 <br>
                 
+                <form>
+                    <label>Search By Category
+                        <input type="text" placeholder="Enter a Category" name="category" required>
+                    </label>
+                    <br>
+                    <button type="submit">Search</button>
+                </form>
+                
+                <br>
+                
+                <a href="./books">All Book</a>
+                <br>
                 <a href="./add">Add Book</a>
                 
                 </body>
